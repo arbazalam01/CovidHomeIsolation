@@ -1,29 +1,18 @@
-import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import Home from './Components/Home/Home'
-import Login from './Components/Login/Login'
-import Register from './Components/Register/Register'
-
+import React, { useEffect, useState } from 'react'
+import Header from './Components/Header/Header';
+import Home from './Components/Home/Home';
+import { auth } from './services/firebase';
 
 function App() {
+  const [user]=useState(auth.currentUser)
+
   return (
-    <Router>
-      <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route path="/signup">
-            <Register />
-          </Route>
-        </Switch>
-    </Router>
+    <div>
+    <Header user={user} />
+    <main>
+      <Home/>
+    </main>
+    </div>
   )
 }
 
