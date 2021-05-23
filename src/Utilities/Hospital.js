@@ -1,3 +1,5 @@
+// Hospital Data
+
 const Hospital=[{
     name:"Alshifa",
     photo:"/images/alshifa.jpg",
