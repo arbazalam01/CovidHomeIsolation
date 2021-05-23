@@ -8,11 +8,14 @@ function Home() {
   return (
     <div>
       <CssBaseline>
-        <Grid container spacing={3}>
-          <Grid item xs={12} sm={6}>
-            {Hospital.map((item) => {
-              return <Cards items={item} />;
-              console.log(item.name, item);
+        <Grid container spacing={2}>
+          <Grid container xs={12} sm={6} spacing={3}>
+            {Hospital.map((item, key) => {
+              return (
+                <Grid item xs={12} sm={6}>
+                  <Cards items={item} key={key} />
+                </Grid>
+              );
             })}
           </Grid>
           <Grid item xs={12} sm={6}>
