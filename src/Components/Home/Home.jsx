@@ -1,22 +1,27 @@
-import React from 'react'
-import Button from '@material-ui/core/Button'
-import {Link} from "react-router-dom"
-import "./Home.css"
+import { CssBaseline, Grid, Typography } from "@material-ui/core";
+import React from "react";
+import Cards from "../../Utilities/Cards/Cards";
+import SideDrawer from "../../Utilities/SideDrawer/SideDrawer";
+import Hospital from "../../Utilities/Hospital";
 
 function Home() {
-    return (
-        <div>
-            <div className="auth-buttons">
-                    <Button variant="contained" color="primary" component={Link} to="/login">
-                        Login
-                    </Button>
-                    <Button variant="contained" color="primary" component={Link} to="/signup">
-                        Signup
-                    </Button>
-            
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <CssBaseline>
+        <Grid container spacing={3}>
+          <Grid item xs={12} sm={6}>
+            {Hospital.map((item) => {
+              return <Cards items={item} />;
+              console.log(item.name, item);
+            })}
+          </Grid>
+          <Grid item xs={12} sm={6}>
+            <SideDrawer />
+          </Grid>
+        </Grid>
+      </CssBaseline>
+    </div>
+  );
 }
 
 export default Home;
