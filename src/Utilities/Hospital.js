@@ -6,7 +6,8 @@ const Hospital=[{
     covid_beds:50,
     general_beds:100,
     address: "D-305, Abul Fazal Enclave Jamia Nagar, Okhla, New Delhi 110025 ",
-    telephone_no:" 9555163363, 9818844498"
+    telephone_no:" 9555163363, 9818844498",
+    website:"http://alshifahospital.net/"
 },   
 {
     name:"Holy Family",
@@ -14,7 +15,8 @@ const Hospital=[{
     covid_beds:100,
     general_beds:200,
     address:"Holy Family Hospital, Okhla Road, New Delhi, 110025, Delhi, India",
-    telephone_no:"011-26845900-909, 011-26332800-809 "
+    telephone_no:"011-26845900-909, 011-26332800-809 ",
+    website:"http://hfhdelhi.org/"
 
 },
 {
@@ -23,7 +25,8 @@ const Hospital=[{
     covid_beds:100,
     general_beds:250,
     address:"Sarita Vihar, Delhi Mathura Road, New Delhi, Delhi 110076, India",
-    telephone_no:"+91-11-71791090, 1091"
+    telephone_no:"+91-11-71791090, 1091",
+    website:"https://delhi.apollohospitals.com/"
 },
 {
     name:"Fortis Escort, Sukhdev Vihar",
@@ -31,7 +34,8 @@ const Hospital=[{
     covid_beds:70,
     general_beds:100,
     address:" South Delhi, off Mathura Road. Okhla Road, New Delhi - 110 025 INDIA",
-    telephone_no:"91-11-47135000 "
+    telephone_no:"91-11-47135000 ",
+    website:"https://www.fortisescorts.in"
 },
 {
     name:" Max Super Speciality Hospital,Saket",
@@ -39,7 +43,8 @@ const Hospital=[{
     covid_beds:80,
     general_beds:100,
     address:"No.1,2, Press Enclave Road, Mandir Marg, Saket Institutional Area, Saket, New Delhi, Delhi 110017, India",
-    telephone_no:" 011-40554055 "
+    telephone_no:" 011-40554055 ",
+    website:"https://www.maxhealthcare.in/hospital-network/max-super-speciality-hospital-saket"
 },
 {
     name:"AIIMS,Delhi",
@@ -47,7 +52,8 @@ const Hospital=[{
     covid_beds:100,
     general_beds:200,
     address:" ANSARI NAGAR, NEW DELHI –110029, INDIA",
-    telephone_no:"01126594871"
+    telephone_no:"01126594871",
+    website:"https://www.aiims.edu/"
 },
 {
     name:"Baba Saheb Ambedkar Hospital",
@@ -55,7 +61,8 @@ const Hospital=[{
     covid_beds:100,
     general_beds:100,
     address:" Mahavir MargSector 6, Rohini, North, Delhi - 110085",
-    telephone_no:"011 27055585, 011 27933256"
+    telephone_no:"011 27055585, 011 27933256",
+    website:"URL Not Available"
 },
 {
     name:"Deen Dayal Upadhyay Hospital",
@@ -63,7 +70,8 @@ const Hospital=[{
     covid_beds:50,
     general_beds:100,
     address:"Deen Dayal Upadhyay Hospital, Hari Nagar, New Delhi -64",
-    telephone_no:"+91-11-25494402-08"
+    telephone_no:"+91-11-25494402-08",
+    website:"URL Not Available"
 },
 {
     name:"Govind Ballabh Pant Hospital ",
@@ -71,7 +79,8 @@ const Hospital=[{
     covid_beds:100,
     general_beds:100,
     address:"Jawaharlal Nehru Marg, New Delhi, 110002",
-    telephone_no:"91-11, 23233001-9, 23234242,"
+    telephone_no:"91-11, 23233001-9, 23234242",
+    website:""
 },
 {
     name:"Sanjay Gandhi Memorial Hospital",
@@ -79,7 +88,8 @@ const Hospital=[{
     covid_beds:100,
     general_beds:100,
     address:"S-Block, Near Bus Terminal, Mangolpuri, North West, Delhi - 110083",
-    telephone_no:"011 27923864, 011 27915990"
+    telephone_no:"011 27923864, 011 27915990",
+    website:"URL Not Available"
 },
 ]
 export default Hospital;
