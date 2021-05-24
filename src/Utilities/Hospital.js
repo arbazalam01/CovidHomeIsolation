@@ -62,7 +62,7 @@ const Hospital=[{
     general_beds:100,
     address:" Mahavir MargSector 6, Rohini, North, Delhi - 110085",
     telephone_no:"011 27055585, 011 27933256",
-    website:"URL Not Available"
+    website:"http://web.delhi.gov.in/wps/wcm/connect/doit_dbsah/DBSAH/Home/"
 },
 {
     name:"Deen Dayal Upadhyay Hospital",
@@ -71,7 +71,7 @@ const Hospital=[{
     general_beds:100,
     address:"Deen Dayal Upadhyay Hospital, Hari Nagar, New Delhi -64",
     telephone_no:"+91-11-25494402-08",
-    website:"URL Not Available"
+    website:"http://www.web.delhi.gov.in/wps/wcm/connect/doit_dduh/DDUH/Home/"
 },
 {
     name:"Govind Ballabh Pant Hospital ",
@@ -80,7 +80,7 @@ const Hospital=[{
     general_beds:100,
     address:"Jawaharlal Nehru Marg, New Delhi, 110002",
     telephone_no:"91-11, 23233001-9, 23234242",
-    website:""
+    website:"http://www.gbpant.delhigovt.nic.in/wps/wcm/connect/doit_gbph/GBPH/Home/"
 },
 {
     name:"Sanjay Gandhi Memorial Hospital",
@@ -89,7 +89,7 @@ const Hospital=[{
     general_beds:100,
     address:"S-Block, Near Bus Terminal, Mangolpuri, North West, Delhi - 110083",
     telephone_no:"011 27923864, 011 27915990",
-    website:"URL Not Available"
+    website:"http://web.delhi.gov.in/wps/wcm/connect/doit_sgmh/SGMH/Home/"
 },
 ]
 export default Hospital;
