@@ -1,14 +1,15 @@
 import { CssBaseline, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import Cards from "../../Utilities/Cards/Cards";
-import SideDrawer from "../../Utilities/SideDrawer/SideDrawer";
 import Hospital from "../../Utilities/Hospital";
+import RightSidebar from "../RightSidebar/RightSidebar";
+import { makeStyles } from "@material-ui/core/styles";
 
 function Home() {
   return (
     <div>
       <CssBaseline>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} style={{ margin: 2 }}>
           <Grid container xs={12} sm={6} spacing={3}>
             {Hospital.map((item, key) => {
               return (
@@ -19,7 +20,7 @@ function Home() {
             })}
           </Grid>
           <Grid item xs={12} sm={6}>
-            <SideDrawer />
+            <RightSidebar />
           </Grid>
         </Grid>
       </CssBaseline>

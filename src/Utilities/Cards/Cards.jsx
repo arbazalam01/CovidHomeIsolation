@@ -15,6 +15,9 @@ const useStyles = makeStyles({
   media: {
     height: 140,
   },
+  covid: {
+    color: "red",
+  },
 });
 
 export default function Cards(props) {
@@ -33,25 +36,42 @@ export default function Cards(props) {
             {props.items.name}
           </Typography>
           <Grid container spacing={2}>
-            <Grid item sm={5} xs={12}>
-              <Typography variant="body2" color="textSecondary" component="p">
+            <Grid item sm={6} xs={12}>
+              <Typography
+                className={classes.covid}
+                variant="body2"
+                color="textPrimary"
+                component="p"
+              >
                 Covid Beds:{props.items.covid_beds}
               </Typography>
             </Grid>
             <Grid item sm={6} xs={12}>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography
+                className={classes.covid}
+                variant="body2"
+                color="textPrimary"
+                component="p"
+              >
                 Non Covid Beds:{props.items.general_beds}
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Address:{props.items.address}
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <Typography variant="body2" color="textSecondary" component="p">
+                Contact:{props.items.telephone_no}
               </Typography>
             </Grid>
           </Grid>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-        <Button size="small" color="primary">
-          Learn More
+        <Button size="small" color="primary" href={props.items.website}>
+          Official Website
         </Button>
       </CardActions>
     </Card>
